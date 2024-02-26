@@ -22,10 +22,14 @@
             "tsConfig": "tsconfig.app.json",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/assets/fonts/glyphicons-halflings-regular.woff2",
+              "src/assets/img",
+              "src/assets/img/patterns"
             ],
             "styles": [
-              "src/styles.css"
+              "src/assets/css/style.css",
+              "src/assets/css/bootstrap.css"
             ],
             "scripts": []
           },
@@ -81,10 +85,18 @@
             "tsConfig": "tsconfig.spec.json",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/assets/fonts/glyphicons-halflings-regular.woff2",
+              "src/assets/fonts/glyphicons-halflings-regular.woff",
+              "src/assets/fonts/glyphicons-halflings-regular.ttf",
+              "src/assets/fonts/glyphicons-halflings-regular.svg",
+              "src/assets/font-awesome/glyphicons-halflings-regular.svg",
+              "src/assets/img",
+              "src/assets/img/patterns"
             ],
             "styles": [
-              "src/styles.css"
+              "src/assets/css/style.css",
+              "src/assets/css/bootstrap.css"
             ],
             "scripts": []
           }
