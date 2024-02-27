@@ -8,20 +8,24 @@ import { ProspectoDetailComponent } from './views/Prospecto-detail/Prospecto-det
 import { AppRouter } from './app.routes'; // Importar el archivo de rutas
 import { CommonModule } from '@angular/common'; // Importa CommonModule
 import { AppConfig } from './app.config';
+import { MenuComponent } from "./menu/menu.component";
+// import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    ProspectoListComponent,
-    ProspectoDetailComponent
-  ],
-  imports: [
-    BrowserModule,
-    HttpClientModule,
-    AppRouter,
-    CommonModule
-  ],
-  providers: [AppConfig],
-  bootstrap: [AppComponent]
+    declarations: [
+        AppComponent,
+        ProspectoListComponent,
+        ProspectoDetailComponent
+    ],
+    providers: [AppConfig],
+    bootstrap: [AppComponent],
+    imports: [
+        BrowserModule,
+        HttpClientModule,
+        // FontAwesomeModule,
+        CommonModule,
+        AppRouter,
+        MenuComponent
+    ]
 })
 export class AppModule { }

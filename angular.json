@@ -23,15 +23,33 @@
             "assets": [
               "src/favicon.ico",
               "src/assets",
-              "src/assets/fonts/glyphicons-halflings-regular.woff2",
               "src/assets/img",
               "src/assets/img/patterns"
             ],
             "styles": [
-              "src/assets/css/style.css",
-              "src/assets/css/bootstrap.css"
+              "src/assets/css/bootstrap.css",
+              "src/assets/font-awesome/css/font-awesome.css",
+              "src/assets/css/animate.css",
+              "src/assets/css/style.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/jquery-3.1.1.min.js",
+              "src/assets/js/popper.min.js",
+              "src/assets/js/bootstrap.min.js",
+              "src/assets/js/plugins/metisMenu/jquery.metisMenu.js",
+              "src/assets/js/plugins/slimscroll/jquery.slimscroll.min.js",
+              "node_modules/@fortawesome/fontawesome-free/js/all.min.js",
+              "src/assets/js/plugins/flot/jquery.flot.js",
+              "src/assets/js/plugins/flot/jquery.flot.tooltip.min.js",
+              "src/assets/js/plugins/flot/jquery.flot.spline.js",
+              "src/assets/js/plugins/flot/jquery.flot.resize.js",
+              "src/assets/js/plugins/flot/jquery.flot.pie.js",
+              "src/assets/js/plugins/flot/jquery.flot.symbol.js",
+              "src/assets/js/plugins/flot/jquery.flot.time.js",
+              "src/assets/js/inspinia.js",
+              "src/assets/js//plugins/pace/pace.min.js",
+              "src/assets/js/plugins/jquery-ui/jquery-ui.min.js",
+            ]
           },
           "configurations": {
             "production": {
@@ -86,10 +104,6 @@
             "assets": [
               "src/favicon.ico",
               "src/assets",
-              "src/assets/fonts/glyphicons-halflings-regular.woff2",
-              "src/assets/fonts/glyphicons-halflings-regular.woff",
-              "src/assets/fonts/glyphicons-halflings-regular.ttf",
-              "src/assets/fonts/glyphicons-halflings-regular.svg",
               "src/assets/font-awesome/glyphicons-halflings-regular.svg",
               "src/assets/img",
               "src/assets/img/patterns"
